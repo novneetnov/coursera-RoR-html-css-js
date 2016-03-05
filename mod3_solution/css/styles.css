@@ -1,0 +1,98 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Oxygen', sans-serif;
+	background-color: #056487;
+}
+
+#header-nav {
+	border-radius: 0;
+	border: 0;
+	background-color: #daf279;
+}
+
+#navbar-header {
+	width: 100%;
+}
+
+#navbar-header > div {
+	padding: 0;
+}
+
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 2.0em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 11px;
+	margin-bottom: 0;
+	line-height: 0.75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { /*** Collapsable Button ***/
+	border: 1px solid #056487;
+}	
+
+#collapsable-nav {
+	font-size: 1em;
+}
+
+#collapsable-nav > ul > li > a {
+	color: #056487;
+}
+/************** END HEADER ******************/
+
+#main-content-header > h2 {
+	margin-top: 5px;
+}
+
+#menu-items div {
+	background-color: #f4bcbc;
+	margin: 0 auto 30px;
+}
+
+#menu-items div h3 {
+	font-weight: bold;
+	color: #000;
+}
+
+#menu-items div p {
+	color: #660808;
+}
+
+
+
+/***************** Large Devices Only ******************/
+@media (min-width: 1200px) {
+
+}
+
+/*************** Medium Devices Only ******************/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/************** Small Devices Only *******************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/************ Extra Small Devices Only **************/
+@media (max-width: 767px) {
+	#navbar-header > div {
+		padding-left: 5%;
+	}
+	#menu-items div {
+		width: 90%;
+		height: 100%;
+	}
+	#menu-items div h3{
+		padding-top: 10px;
+	}	
+}
+
