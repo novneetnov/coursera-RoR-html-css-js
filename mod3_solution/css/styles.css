@@ -51,17 +51,22 @@ body {
 	margin-top: 5px;
 }
 
-#menu-items div {
-	background-color: #f4bcbc;
+#menu-items > div {
 	margin: 0 auto 30px;
 }
 
-#menu-items div h3 {
-	font-weight: bold;
-	color: #000;
+#menu-items > div > div {
+	padding: 0px 15px 0px 15px;
+	background-color: #F4BCBC;
 }
 
-#menu-items div p {
+#menu-items > div > div h3 {
+	font-weight: bold;
+	color: #000;
+	padding-top: 15px;
+}
+
+#menu-items p {
 	color: #660808;
 }
 
@@ -91,8 +96,5 @@ body {
 		width: 90%;
 		height: 100%;
 	}
-	#menu-items div h3{
-		padding-top: 10px;
-	}	
 }
 
